@@ -368,4 +368,4 @@ if __name__ == "__main__":
         stick, btn = controller.decide_action(game_state)
         print(f"  {i+1}. Stick: {stick}, Buttons: {btn}")
 
-    print("\n✓ AIController working correctly!")
+    print("\n AIController working correctly!")
