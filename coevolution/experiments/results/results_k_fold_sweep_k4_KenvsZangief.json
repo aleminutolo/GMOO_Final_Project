@@ -1,0 +1,863 @@
+{
+  "pop_size": 20,
+  "generations_total": 25,
+  "k_matches": 4,
+  "tournament_size": 4,
+  "character1": "Ken",
+  "character2": "Zangief",
+  "history_a": [
+    {
+      "generation": 1,
+      "avg_fitness": 121.94477120747267,
+      "max_fitness": 557.6274390467395,
+      "min_fitness": 92.6,
+      "strategies": {
+        "aggressive": 9,
+        "defensive": 7,
+        "balanced": 4
+      },
+      "win_rate": 0.0625,
+      "total_wins": 5,
+      "total_losses": 2,
+      "total_draws": 73,
+      "total_matches": 80
+    },
+    {
+      "generation": 2,
+      "avg_fitness": 220.4641638371755,
+      "max_fitness": 561.7178044621618,
+      "min_fitness": 92.6,
+      "strategies": {
+        "balanced": 9,
+        "defensive": 8,
+        "aggressive": 3
+      },
+      "win_rate": 0.2875,
+      "total_wins": 23,
+      "total_losses": 2,
+      "total_draws": 55,
+      "total_matches": 80
+    },
+    {
+      "generation": 3,
+      "avg_fitness": 407.80746575385643,
+      "max_fitness": 553.9144984830014,
+      "min_fitness": 92.6,
+      "strategies": {
+        "balanced": 16,
+        "defensive": 2,
+        "aggressive": 2
+      },
+      "win_rate": 0.7,
+      "total_wins": 56,
+      "total_losses": 7,
+      "total_draws": 17,
+      "total_matches": 80
+    },
+    {
+      "generation": 4,
+      "avg_fitness": 488.98395079676504,
+      "max_fitness": 551.6945490274762,
+      "min_fitness": 392.43690515255014,
+      "strategies": {
+        "balanced": 19,
+        "aggressive": 1
+      },
+      "win_rate": 0.875,
+      "total_wins": 70,
+      "total_losses": 10,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 5,
+      "avg_fitness": 437.3570997726791,
+      "max_fitness": 542.8667157287158,
+      "min_fitness": 213.89004817920164,
+      "strategies": {
+        "balanced": 18,
+        "aggressive": 1,
+        "defensive": 1
+      },
+      "win_rate": 0.7625,
+      "total_wins": 61,
+      "total_losses": 17,
+      "total_draws": 2,
+      "total_matches": 80
+    },
+    {
+      "generation": 6,
+      "avg_fitness": 437.4091149509557,
+      "max_fitness": 557.8466295740424,
+      "min_fitness": 289.84253382529903,
+      "strategies": {
+        "balanced": 20
+      },
+      "win_rate": 0.75,
+      "total_wins": 60,
+      "total_losses": 19,
+      "total_draws": 1,
+      "total_matches": 80
+    },
+    {
+      "generation": 7,
+      "avg_fitness": 433.39150337035943,
+      "max_fitness": 546.6811761973266,
+      "min_fitness": 228.95180904488237,
+      "strategies": {
+        "balanced": 19,
+        "defensive": 1
+      },
+      "win_rate": 0.775,
+      "total_wins": 62,
+      "total_losses": 18,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 8,
+      "avg_fitness": 403.78844523912164,
+      "max_fitness": 551.5886250311102,
+      "min_fitness": 178.28018087815735,
+      "strategies": {
+        "balanced": 20
+      },
+      "win_rate": 0.7125,
+      "total_wins": 57,
+      "total_losses": 18,
+      "total_draws": 5,
+      "total_matches": 80
+    },
+    {
+      "generation": 9,
+      "avg_fitness": 360.08807540691043,
+      "max_fitness": 550.5074364177491,
+      "min_fitness": 143.96350149065836,
+      "strategies": {
+        "balanced": 19,
+        "defensive": 1
+      },
+      "win_rate": 0.6375,
+      "total_wins": 51,
+      "total_losses": 27,
+      "total_draws": 2,
+      "total_matches": 80
+    },
+    {
+      "generation": 10,
+      "avg_fitness": 322.9434849790697,
+      "max_fitness": 544.2418791810651,
+      "min_fitness": 139.2515134857855,
+      "strategies": {
+        "balanced": 14,
+        "defensive": 6
+      },
+      "win_rate": 0.5375,
+      "total_wins": 43,
+      "total_losses": 37,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 11,
+      "avg_fitness": 213.79934511747987,
+      "max_fitness": 413.08980583218874,
+      "min_fitness": 6.576240771085032,
+      "strategies": {
+        "balanced": 17,
+        "defensive": 3
+      },
+      "win_rate": 0.35,
+      "total_wins": 28,
+      "total_losses": 49,
+      "total_draws": 3,
+      "total_matches": 80
+    },
+    {
+      "generation": 12,
+      "avg_fitness": 193.60907241743485,
+      "max_fitness": 441.19734441869616,
+      "min_fitness": 2.688900226757778,
+      "strategies": {
+        "defensive": 5,
+        "balanced": 15
+      },
+      "win_rate": 0.275,
+      "total_wins": 22,
+      "total_losses": 57,
+      "total_draws": 1,
+      "total_matches": 80
+    },
+    {
+      "generation": 13,
+      "avg_fitness": 220.11247734053973,
+      "max_fitness": 550.8076420550491,
+      "min_fitness": 7.554729199372494,
+      "strategies": {
+        "defensive": 9,
+        "balanced": 11
+      },
+      "win_rate": 0.3375,
+      "total_wins": 27,
+      "total_losses": 51,
+      "total_draws": 2,
+      "total_matches": 80
+    },
+    {
+      "generation": 14,
+      "avg_fitness": 248.63376118663345,
+      "max_fitness": 552.344600568063,
+      "min_fitness": 9.261088269968024,
+      "strategies": {
+        "defensive": 15,
+        "balanced": 5
+      },
+      "win_rate": 0.4125,
+      "total_wins": 33,
+      "total_losses": 43,
+      "total_draws": 4,
+      "total_matches": 80
+    },
+    {
+      "generation": 15,
+      "avg_fitness": 211.65229204308238,
+      "max_fitness": 550.455333200848,
+      "min_fitness": 7.418176229508633,
+      "strategies": {
+        "defensive": 16,
+        "balanced": 4
+      },
+      "win_rate": 0.35,
+      "total_wins": 28,
+      "total_losses": 52,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 16,
+      "avg_fitness": 200.926046274417,
+      "max_fitness": 427.21861946032357,
+      "min_fitness": 7.4033836451251585,
+      "strategies": {
+        "defensive": 19,
+        "balanced": 1
+      },
+      "win_rate": 0.325,
+      "total_wins": 26,
+      "total_losses": 51,
+      "total_draws": 3,
+      "total_matches": 80
+    },
+    {
+      "generation": 17,
+      "avg_fitness": 209.20387701154354,
+      "max_fitness": 427.8504545454547,
+      "min_fitness": 3.5402603671310606,
+      "strategies": {
+        "defensive": 20
+      },
+      "win_rate": 0.35,
+      "total_wins": 28,
+      "total_losses": 50,
+      "total_draws": 2,
+      "total_matches": 80
+    },
+    {
+      "generation": 18,
+      "avg_fitness": 229.75562823030774,
+      "max_fitness": 428.90153284363413,
+      "min_fitness": 3.2669442674881592,
+      "strategies": {
+        "defensive": 20
+      },
+      "win_rate": 0.4,
+      "total_wins": 32,
+      "total_losses": 48,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 19,
+      "avg_fitness": 190.81802123825506,
+      "max_fitness": 425.34623904675277,
+      "min_fitness": 4.528943914783822,
+      "strategies": {
+        "defensive": 20
+      },
+      "win_rate": 0.3,
+      "total_wins": 24,
+      "total_losses": 56,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 20,
+      "avg_fitness": 191.62731250085216,
+      "max_fitness": 564.6917720306515,
+      "min_fitness": 2.2196806019322235,
+      "strategies": {
+        "defensive": 20
+      },
+      "win_rate": 0.3125,
+      "total_wins": 25,
+      "total_losses": 55,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 21,
+      "avg_fitness": 250.25841714798017,
+      "max_fitness": 551.1859590043734,
+      "min_fitness": 7.549560940016594,
+      "strategies": {
+        "defensive": 19,
+        "aggressive": 1
+      },
+      "win_rate": 0.425,
+      "total_wins": 34,
+      "total_losses": 46,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 22,
+      "avg_fitness": 214.83533465814827,
+      "max_fitness": 567.4857615513373,
+      "min_fitness": 4.2937217911824295,
+      "strategies": {
+        "defensive": 20
+      },
+      "win_rate": 0.3625,
+      "total_wins": 29,
+      "total_losses": 51,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 23,
+      "avg_fitness": 203.4305727671678,
+      "max_fitness": 566.1047777565043,
+      "min_fitness": 5.0147146512382,
+      "strategies": {
+        "defensive": 20
+      },
+      "win_rate": 0.3375,
+      "total_wins": 27,
+      "total_losses": 52,
+      "total_draws": 1,
+      "total_matches": 80
+    },
+    {
+      "generation": 24,
+      "avg_fitness": 188.29910134355228,
+      "max_fitness": 427.27758129936683,
+      "min_fitness": 6.403216589026195,
+      "strategies": {
+        "defensive": 20
+      },
+      "win_rate": 0.3125,
+      "total_wins": 25,
+      "total_losses": 55,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 25,
+      "avg_fitness": 171.04943537818892,
+      "max_fitness": 426.57005523989926,
+      "min_fitness": 5.027312403698453,
+      "strategies": {
+        "defensive": 18,
+        "aggressive": 2
+      },
+      "win_rate": 0.2875,
+      "total_wins": 23,
+      "total_losses": 56,
+      "total_draws": 1,
+      "total_matches": 80
+    }
+  ],
+  "history_b": [
+    {
+      "generation": 1,
+      "avg_fitness": 102.92527490928107,
+      "max_fitness": 248.5673076923077,
+      "min_fitness": 69.68125,
+      "strategies": {
+        "balanced": 8,
+        "aggressive": 4,
+        "defensive": 8
+      },
+      "win_rate": 0.025,
+      "total_wins": 2,
+      "total_losses": 6,
+      "total_draws": 72,
+      "total_matches": 80
+    },
+    {
+      "generation": 2,
+      "avg_fitness": 107.04303722095422,
+      "max_fitness": 175.94499425287356,
+      "min_fitness": 50.275669677024325,
+      "strategies": {
+        "aggressive": 5,
+        "balanced": 5,
+        "defensive": 10
+      },
+      "win_rate": 0.0125,
+      "total_wins": 1,
+      "total_losses": 26,
+      "total_draws": 53,
+      "total_matches": 80
+    },
+    {
+      "generation": 3,
+      "avg_fitness": 149.09538987535683,
+      "max_fitness": 296.34393794447885,
+      "min_fitness": 39.90627169932179,
+      "strategies": {
+        "defensive": 12,
+        "balanced": 6,
+        "aggressive": 2
+      },
+      "win_rate": 0.1,
+      "total_wins": 8,
+      "total_losses": 52,
+      "total_draws": 20,
+      "total_matches": 80
+    },
+    {
+      "generation": 4,
+      "avg_fitness": 213.56208215358265,
+      "max_fitness": 542.374812077447,
+      "min_fitness": 49.61434232082601,
+      "strategies": {
+        "aggressive": 1,
+        "balanced": 10,
+        "defensive": 9
+      },
+      "win_rate": 0.2125,
+      "total_wins": 17,
+      "total_losses": 63,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 5,
+      "avg_fitness": 229.15633409171573,
+      "max_fitness": 471.9846818328077,
+      "min_fitness": 84.23544062583133,
+      "strategies": {
+        "balanced": 13,
+        "defensive": 7
+      },
+      "win_rate": 0.25,
+      "total_wins": 20,
+      "total_losses": 54,
+      "total_draws": 6,
+      "total_matches": 80
+    },
+    {
+      "generation": 6,
+      "avg_fitness": 272.10504423153606,
+      "max_fitness": 436.5399143802517,
+      "min_fitness": 90.37910308142621,
+      "strategies": {
+        "balanced": 18,
+        "defensive": 2
+      },
+      "win_rate": 0.3375,
+      "total_wins": 27,
+      "total_losses": 53,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 7,
+      "avg_fitness": 270.2021077317659,
+      "max_fitness": 530.7483120220018,
+      "min_fitness": 6.962887358731558,
+      "strategies": {
+        "defensive": 3,
+        "balanced": 17
+      },
+      "win_rate": 0.35,
+      "total_wins": 28,
+      "total_losses": 51,
+      "total_draws": 1,
+      "total_matches": 80
+    },
+    {
+      "generation": 8,
+      "avg_fitness": 330.7481571064592,
+      "max_fitness": 549.5869470387253,
+      "min_fitness": 33.8293113533292,
+      "strategies": {
+        "balanced": 19,
+        "aggressive": 1
+      },
+      "win_rate": 0.5125,
+      "total_wins": 41,
+      "total_losses": 38,
+      "total_draws": 1,
+      "total_matches": 80
+    },
+    {
+      "generation": 9,
+      "avg_fitness": 317.4542855680256,
+      "max_fitness": 556.1388971744569,
+      "min_fitness": 13.71681266999888,
+      "strategies": {
+        "balanced": 17,
+        "aggressive": 3
+      },
+      "win_rate": 0.5,
+      "total_wins": 40,
+      "total_losses": 40,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 10,
+      "avg_fitness": 371.2947657522342,
+      "max_fitness": 554.5794195246651,
+      "min_fitness": 193.85875541154877,
+      "strategies": {
+        "balanced": 15,
+        "aggressive": 5
+      },
+      "win_rate": 0.5625,
+      "total_wins": 45,
+      "total_losses": 35,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 11,
+      "avg_fitness": 407.70707469351044,
+      "max_fitness": 556.5494557792979,
+      "min_fitness": 129.22802993608326,
+      "strategies": {
+        "balanced": 10,
+        "aggressive": 10
+      },
+      "win_rate": 0.7,
+      "total_wins": 56,
+      "total_losses": 22,
+      "total_draws": 2,
+      "total_matches": 80
+    },
+    {
+      "generation": 12,
+      "avg_fitness": 463.2026063839603,
+      "max_fitness": 562.4173498532093,
+      "min_fitness": 158.23250616496614,
+      "strategies": {
+        "balanced": 14,
+        "aggressive": 6
+      },
+      "win_rate": 0.8,
+      "total_wins": 64,
+      "total_losses": 14,
+      "total_draws": 2,
+      "total_matches": 80
+    },
+    {
+      "generation": 13,
+      "avg_fitness": 432.4219115231819,
+      "max_fitness": 558.4994554048864,
+      "min_fitness": 280.3078306149604,
+      "strategies": {
+        "balanced": 13,
+        "aggressive": 7
+      },
+      "win_rate": 0.7375,
+      "total_wins": 59,
+      "total_losses": 20,
+      "total_draws": 1,
+      "total_matches": 80
+    },
+    {
+      "generation": 14,
+      "avg_fitness": 422.81038632193776,
+      "max_fitness": 561.5791825778111,
+      "min_fitness": 156.41243830180477,
+      "strategies": {
+        "aggressive": 8,
+        "balanced": 12
+      },
+      "win_rate": 0.725,
+      "total_wins": 58,
+      "total_losses": 20,
+      "total_draws": 2,
+      "total_matches": 80
+    },
+    {
+      "generation": 15,
+      "avg_fitness": 392.86850235318207,
+      "max_fitness": 560.8889639016902,
+      "min_fitness": 206.85622592867676,
+      "strategies": {
+        "balanced": 9,
+        "aggressive": 10,
+        "defensive": 1
+      },
+      "win_rate": 0.6375,
+      "total_wins": 51,
+      "total_losses": 28,
+      "total_draws": 1,
+      "total_matches": 80
+    },
+    {
+      "generation": 16,
+      "avg_fitness": 398.76725084932775,
+      "max_fitness": 553.1650528090449,
+      "min_fitness": 181.57589037557779,
+      "strategies": {
+        "balanced": 5,
+        "defensive": 2,
+        "aggressive": 13
+      },
+      "win_rate": 0.6875,
+      "total_wins": 55,
+      "total_losses": 22,
+      "total_draws": 3,
+      "total_matches": 80
+    },
+    {
+      "generation": 17,
+      "avg_fitness": 365.0327586790039,
+      "max_fitness": 561.5971186361952,
+      "min_fitness": 163.81237408424923,
+      "strategies": {
+        "aggressive": 15,
+        "balanced": 4,
+        "defensive": 1
+      },
+      "win_rate": 0.6,
+      "total_wins": 48,
+      "total_losses": 30,
+      "total_draws": 2,
+      "total_matches": 80
+    },
+    {
+      "generation": 18,
+      "avg_fitness": 405.8675174613225,
+      "max_fitness": 562.4450770508699,
+      "min_fitness": 150.17211225429986,
+      "strategies": {
+        "aggressive": 14,
+        "balanced": 5,
+        "defensive": 1
+      },
+      "win_rate": 0.7125,
+      "total_wins": 57,
+      "total_losses": 23,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 19,
+      "avg_fitness": 423.067312826978,
+      "max_fitness": 562.4660814376853,
+      "min_fitness": 201.59449571963637,
+      "strategies": {
+        "balanced": 7,
+        "aggressive": 9,
+        "defensive": 4
+      },
+      "win_rate": 0.7375,
+      "total_wins": 59,
+      "total_losses": 21,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 20,
+      "avg_fitness": 392.2981845637606,
+      "max_fitness": 563.0669302626716,
+      "min_fitness": 151.299753600437,
+      "strategies": {
+        "aggressive": 11,
+        "balanced": 7,
+        "defensive": 2
+      },
+      "win_rate": 0.6875,
+      "total_wins": 55,
+      "total_losses": 25,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 21,
+      "avg_fitness": 418.9851238584445,
+      "max_fitness": 562.1602294514507,
+      "min_fitness": 150.12819493273776,
+      "strategies": {
+        "aggressive": 8,
+        "balanced": 11,
+        "defensive": 1
+      },
+      "win_rate": 0.725,
+      "total_wins": 58,
+      "total_losses": 22,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 22,
+      "avg_fitness": 425.8340868349995,
+      "max_fitness": 562.6105208333339,
+      "min_fitness": 150.70860216131925,
+      "strategies": {
+        "balanced": 16,
+        "aggressive": 4
+      },
+      "win_rate": 0.75,
+      "total_wins": 60,
+      "total_losses": 20,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 23,
+      "avg_fitness": 411.2807043790488,
+      "max_fitness": 562.8510294726815,
+      "min_fitness": 284.8839382798576,
+      "strategies": {
+        "aggressive": 6,
+        "balanced": 13,
+        "defensive": 1
+      },
+      "win_rate": 0.725,
+      "total_wins": 58,
+      "total_losses": 21,
+      "total_draws": 1,
+      "total_matches": 80
+    },
+    {
+      "generation": 24,
+      "avg_fitness": 417.8433381718131,
+      "max_fitness": 562.8151234294725,
+      "min_fitness": 13.321522762289977,
+      "strategies": {
+        "balanced": 15,
+        "defensive": 2,
+        "aggressive": 3
+      },
+      "win_rate": 0.7375,
+      "total_wins": 59,
+      "total_losses": 21,
+      "total_draws": 0,
+      "total_matches": 80
+    },
+    {
+      "generation": 25,
+      "avg_fitness": 388.69037692968215,
+      "max_fitness": 563.3626661881176,
+      "min_fitness": 147.4672871943949,
+      "strategies": {
+        "balanced": 17,
+        "aggressive": 3
+      },
+      "win_rate": 0.6875,
+      "total_wins": 55,
+      "total_losses": 25,
+      "total_draws": 0,
+      "total_matches": 80
+    }
+  ],
+  "best_individual_a": {
+    "strategy": "defensive",
+    "thresholds": [
+      200,
+      26.376489795013814,
+      152.56758738047336,
+      1.6227353067603716
+    ],
+    "weights": [
+      0.568862207705696,
+      0.1919429962898238,
+      0.0,
+      0.034052840129457224,
+      0.5081425702108785,
+      0.21138262444288425,
+      1.0,
+      0.0,
+      0.16275037152301497,
+      0.32732280113972745,
+      0.8034326711841829,
+      0.005819643327700165,
+      0.4274655372259375,
+      1.0,
+      0.0573459968197905,
+      0.7179386943734392,
+      0.9352522860833172,
+      0.3450989607473768,
+      1.0,
+      0.3242300319273722,
+      0.7780920490047463,
+      1.0,
+      0.0,
+      0.06844040445340653,
+      0.18331745348257578,
+      0.4207749044742309,
+      0.9287671124873209,
+      0.713782551402391,
+      0.6949558889587522,
+      0.3193592951749943
+    ],
+    "fitness": 567.4857615513373,
+    "wins": 4,
+    "losses": 0,
+    "draws": 0
+  },
+  "best_individual_b": {
+    "strategy": "balanced",
+    "thresholds": [
+      200,
+      60,
+      196.00476961677126,
+      1.4745503934913438
+    ],
+    "weights": [
+      1.0,
+      1.0,
+      0.7559029102131705,
+      0.9022040060454468,
+      1.0,
+      0.2737718118008001,
+      0.2384117761495929,
+      0.7021054805387122,
+      0.7955015272031885,
+      1.0,
+      0.7759318222005664,
+      0.0,
+      0.8250006694020329,
+      0.8776356811916682,
+      0.5598484408161487,
+      0.8342784766193616,
+      0.6142453828374974,
+      0.22508924724962223,
+      0.2817756950220226,
+      0.0,
+      0.982134119225905,
+      0.3747368726776379,
+      0.49226907974368095,
+      0.40183631407535414,
+      0.5501494996630298,
+      0.07236550478578932,
+      1.0,
+      0.4210871915653539,
+      1.0,
+      0.02857239609262141
+    ],
+    "fitness": 563.3626661881176,
+    "wins": 4,
+    "losses": 0,
+    "draws": 0
+  },
+  "best_fitness_a": 567.4857615513373,
+  "best_fitness_b": 563.3626661881176,
+  "total_time": 25705.57086467743
+}
