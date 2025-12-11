@@ -74,7 +74,7 @@ def run_k_fold_sweep(
         with open(results_file, 'w') as f:
             json.dump(stats, f, indent=2)
 
-        print(f"\n✓ Experiment k={k} complete in {experiment_time:.1f}s")
+        print(f"\n Experiment k={k} complete in {experiment_time:.1f}s")
         print(f"  Saved to: {results_file}")
 
     # Save combined results
@@ -85,7 +85,7 @@ def run_k_fold_sweep(
     print(f"\n{'='*80}")
     print("ALL EXPERIMENTS COMPLETE")
     print(f"{'='*80}")
-    print(f"\n✓ Combined results saved to: {combined_file}")
+    print(f"\n Combined results saved to: {combined_file}")
 
     return all_results
 
@@ -194,7 +194,7 @@ def plot_k_fold_comparison(all_results, save_file='k_fold_comparison.png'):
 
     plt.tight_layout()
     plt.savefig(save_file, dpi=300, bbox_inches='tight')
-    print(f"✓ Plots saved to: {save_file}")
+    print(f" Plots saved to: {save_file}")
 
     # Also create a summary table
     print("\n" + "="*80)
@@ -257,4 +257,4 @@ if __name__ == "__main__":
     # Generate comparison plots
     plot_k_fold_comparison(all_results)
 
-    print("\n✓ K-fold parameter sweep complete!")
+    print("\n K-fold parameter sweep complete!")
