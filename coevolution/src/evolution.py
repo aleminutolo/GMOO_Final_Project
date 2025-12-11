@@ -218,7 +218,7 @@ if __name__ == "__main__":
     print("Population fitness:", fitness)
     selected = tournament_selection(pop, fitness, tournament_size=3)
     print(f"Selected individual: {selected}")
-    print("✓ Tournament selection working")
+    print(" Tournament selection working")
 
     # Test 2: Uniform Crossover
     print("\nTest 2: Uniform Crossover")
@@ -232,7 +232,7 @@ if __name__ == "__main__":
     off1, off2 = uniform_crossover(parent1, parent2)
     print(f"Offspring 1 weights (first 5): {off1.weights[:5]}")
     print(f"Offspring 2 weights (first 5): {off2.weights[:5]}")
-    print("✓ Crossover working")
+    print(" Crossover working")
 
     # Test 3: Gaussian Mutation
     print("\nTest 3: Gaussian Mutation")
@@ -251,7 +251,7 @@ if __name__ == "__main__":
     changed_weights = sum(1 for i in range(len(original.weights))
                          if original.weights[i] != mutated.weights[i])
     print(f"Changed weights: {changed_weights}/30")
-    print("✓ Mutation working")
+    print(" Mutation working")
 
     # Test 4: Full Evolution
     print("\nTest 4: Population Evolution")
@@ -271,7 +271,7 @@ if __name__ == "__main__":
     )
 
     print(f"New population size: {len(new_pop)}")
-    print("✓ Population evolution working")
+    print(" Population evolution working")
 
     # Test 5: Multiple Generations
     print("\nTest 5: Multi-Generation Evolution")
@@ -289,8 +289,8 @@ if __name__ == "__main__":
         # Evolve
         pop = evolve_population(pop, fitness, offspring_count=30, elite_count=2)
 
-    print("✓ Multi-generation evolution working")
+    print(" Multi-generation evolution working")
 
     print("\n" + "=" * 60)
-    print("All evolutionary operators tests passed! ✓")
+    print("All evolutionary operators tests passed! ")
     print("=" * 60)
