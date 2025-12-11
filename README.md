@@ -2,7 +2,7 @@
 
 Two-population competitive coevolution using genetic algorithms. AI controllers for Street Fighter characters evolve against each other in an arms race.
 
-Built on [Street_pyghter](https://github.com/Freddy875/Street_pyghter) game engine. In order to run the code Street_pyghter must be downloaded.
+Built on [Street_pyghter](https://www.pygame.org/project/1860) game engine. In order to run the code Street_pyghter must be downloaded.
 
 ## Example
 
