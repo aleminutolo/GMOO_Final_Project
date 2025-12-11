@@ -13,7 +13,7 @@ class CoevolutionAnalyzer:
     1. Fitness Evolution - Track avg/max/min fitness over generations
     2. Arms Race Detection - Both populations improving = successful coevolution
     3. Diversity Maintenance - Ensure populations don't lose diversity
-    4. Win Rate Tracking - Competition balance (50% = balanced, >70% = domination)
+    4. Win Rate Tracking - Competition balance
     5. Convergence - Detect when evolution plateaus
     6. Baseline Performance - Measure absolute skill, not just relative
     """
@@ -85,11 +85,8 @@ class CoevolutionAnalyzer:
     def plot_arms_race(self, save_path: str = None):
         """
         Visualize the arms race between populations.
-
-        Both populations improving = successful competitive coevolution
-        One improving, one declining = dominance (not ideal)
-        Both flat = stagnation/cycling
         """
+        
         fig, ax = plt.subplots(figsize=(10, 6))
 
         gens = range(self.generations)
