@@ -133,7 +133,7 @@ class Individual:
         """
         Update fitness based on match results.
 
-        IMPROVED FITNESS FUNCTION:
+        FITNESS FUNCTION:
         - Rewards winning heavily
         - Rewards dealing damage (encourages aggression)
         - Rewards getting close to opponent (encourages engagement)
