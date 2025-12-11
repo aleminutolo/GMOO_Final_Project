@@ -384,7 +384,7 @@ if __name__ == "__main__":
     print(f"Player 1: {result['p1_health']} HP, {result['p1_damage']} damage dealt")
     print(f"Player 2: {result['p2_health']} HP, {result['p2_damage']} damage dealt")
     print(f"Frames: {result['frames']}")
-    print("✓ Single fight working")
+    print(" Single fight working")
 
     # Test 2: Individual Evaluation
     print("\nTest 2: Individual Evaluation (K-fold)")
@@ -398,7 +398,7 @@ if __name__ == "__main__":
 
     print(f"Individual: {individual}")
     print(f"Fitness: {fitness:.2f}")
-    print("✓ Individual evaluation working")
+    print(" Individual evaluation working")
 
     # Test 3: Population Evaluation
     print("\nTest 3: Population Evaluation")
@@ -414,11 +414,11 @@ if __name__ == "__main__":
     for i, (ind, fit) in enumerate(zip(population, fitness_scores)):
         print(f"  Individual {i+1}: {fit:.2f} (W:{ind.wins} L:{ind.losses} D:{ind.draws})")
 
-    print("✓ Population evaluation working")
+    print(" Population evaluation working")
 
     # Cleanup
     simulator.cleanup()
 
     print("\n" + "=" * 60)
-    print("All evaluation tests passed! ✓")
+    print("All evaluation tests passed! ")
     print("=" * 60)
