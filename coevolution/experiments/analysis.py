@@ -76,7 +76,7 @@ class CoevolutionAnalyzer:
 
         if save_path:
             plt.savefig(save_path, dpi=300, bbox_inches='tight')
-            print(f"✓ Saved fitness curves to {save_path}")
+            print(f" Saved fitness curves to {save_path}")
         else:
             plt.show()
 
@@ -113,7 +113,7 @@ class CoevolutionAnalyzer:
         improvement_b = avg_b[-1] - avg_b[0]
 
         if improvement_a > 0 and improvement_b > 0:
-            status = "✓ ARMS RACE DETECTED"
+            status = " ARMS RACE DETECTED"
             color = 'green'
         elif improvement_a > 0 and improvement_b < 0:
             status = "⚠ Population A Dominating"
@@ -134,7 +134,7 @@ class CoevolutionAnalyzer:
 
         if save_path:
             plt.savefig(save_path, dpi=300, bbox_inches='tight')
-            print(f"✓ Saved arms race plot to {save_path}")
+            print(f" Saved arms race plot to {save_path}")
         else:
             plt.show()
 
@@ -213,7 +213,7 @@ class CoevolutionAnalyzer:
 
         if save_path:
             plt.savefig(save_path, dpi=300, bbox_inches='tight')
-            print(f"✓ Saved diversity plot to {save_path}")
+            print(f" Saved diversity plot to {save_path}")
         else:
             plt.show()
 
@@ -268,7 +268,7 @@ class CoevolutionAnalyzer:
 
         # Determine competition balance
         if 40 <= final_wr_a <= 60 and 40 <= final_wr_b <= 60:
-            status = "✓ BALANCED COMPETITION"
+            status = " BALANCED COMPETITION"
             color = 'green'
         elif final_wr_a > 70:
             status = f"⚠ Pop A Dominating ({final_wr_a:.1f}%)"
@@ -298,7 +298,7 @@ class CoevolutionAnalyzer:
 
         if save_path:
             plt.savefig(save_path, dpi=300, bbox_inches='tight')
-            print(f"✓ Saved win rate plot to {save_path}")
+            print(f" Saved win rate plot to {save_path}")
         else:
             plt.show()
 
@@ -379,7 +379,7 @@ class CoevolutionAnalyzer:
         improvement_b = hist_b[-1]['avg_fitness'] - hist_b[0]['avg_fitness']
 
         if improvement_a > 0 and improvement_b > 0:
-            print("✓ ARMS RACE DETECTED: Both populations improving")
+            print(" ARMS RACE DETECTED: Both populations improving")
             print("  This indicates successful competitive coevolution.")
         else:
             print("⚠ No clear arms race detected")
@@ -401,7 +401,7 @@ class CoevolutionAnalyzer:
         print("-" * 70)
         conv = self.detect_convergence()
         if conv['both_converged']:
-            print(f"✓ Both populations converged around generation {conv['convergence_gen']}")
+            print(f" Both populations converged around generation {conv['convergence_gen']}")
             print(f"  Recommendation: Use ~{conv['convergence_gen']+5} generations for this setup")
         else:
             print("⚠ Populations have not fully converged")
@@ -425,7 +425,7 @@ class CoevolutionAnalyzer:
             print(f"  Final win rate: {final_wr_b:.1f}%")
 
             if 40 <= final_wr_a <= 60 and 40 <= final_wr_b <= 60:
-                print("\n✓ Balanced competition achieved (both populations ~50% win rate)")
+                print("\n Balanced competition achieved (both populations ~50% win rate)")
             elif final_wr_a > 70:
                 print(f"\n⚠ Population A dominates with {final_wr_a:.1f}% win rate")
             elif final_wr_b > 70:
@@ -443,7 +443,7 @@ class CoevolutionAnalyzer:
             self.plot_win_rates(os.path.join(output_dir, 'win_rates.png'))
 
         print("\n" + "="*70)
-        print(f"✓ Analysis complete! Results saved to {output_dir}/")
+        print(f" Analysis complete! Results saved to {output_dir}/")
         print("="*70)
 
 
