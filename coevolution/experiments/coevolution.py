@@ -24,7 +24,6 @@ def run_coevolution_experiment(
     Run two-population competitive coevolution.
 
     Population A and Population B evolve simultaneously, each trying to beat the other.
-    This creates an "arms race" where improvements in one population force the other to adapt.
 
     Args:
         pop_size: Size of each population (μ)
@@ -212,7 +211,7 @@ def run_coevolution_experiment(
         print(f"\nTime: {gen_time:.1f}s")
         print(f"{'-'*80}")
 
-        # Evolve both populations (except on last generation)
+        # Evolve both populations
         if gen < generations - 1:
             print(f"\nEvolving populations...")
 
@@ -246,7 +245,7 @@ def run_coevolution_experiment(
     results_file = f'results_coevolution_{character_a}vs{character_b}_{generations}gen.json'
     with open(results_file, 'w') as f:
         json.dump(stats, f, indent=2)
-    print(f"\n✓ Results saved to {results_file}")
+    print(f"\nResults saved to {results_file}")
 
     # Final summary
     print(f"\n{'='*80}")
@@ -282,15 +281,12 @@ def run_coevolution_experiment(
 
     print(f"\n{'='*80}")
     if a_improved and b_improved:
-        print("✓ SUCCESS: Arms race detected! Both populations improved.")
-        print("  This indicates successful competitive coevolution.")
+        print("Arms race detected! Both populations improved.")
     elif a_improved or b_improved:
         improved = character_a if a_improved else character_b
-        print(f"✓ PARTIAL SUCCESS: {improved} improved significantly.")
-        print("  One population dominated, but evolution occurred.")
+        print(f"{improved} improved significantly.")
     else:
-        print("✗ LIMITED SUCCESS: Minimal improvement in both populations.")
-        print("  May need more generations or fitness tuning.")
+        print("Minimal improvement in both populations.")
     print(f"{'='*80}\n")
 
     return stats
@@ -394,4 +390,4 @@ if __name__ == "__main__":
     # Plot results
     plot_coevolution(stats)
 
-    print("\n✓ Coevolution experiment complete!")
+    print("Coevolution experiment complete!")
