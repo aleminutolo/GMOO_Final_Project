@@ -264,4 +264,4 @@ if __name__ == "__main__":
     for i, individual in enumerate(pop):
         print(f"  {i+1}. {individual}")
 
-    print("\n✓ Individual class working correctly!")
+    print("\n Individual class working correctly!")
